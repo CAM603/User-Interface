@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -45,16 +45,17 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} 
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+nav{
+	display: block;
+}
+nav a{
+	display: inline-block;
+	padding: 25px;
+}
+nav .logo{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+}
+button{
+	padding: 10px 40px;
+	font-weight:bold;
+	font-size: 15px;
+}
+
+header{
+	display: block;
+	padding: 20px;
+}
+.middle-img{
+	width: 100%;
+	margin: 30px 0px 30px 0px;
+}
+.intro{
+	display:inline-block;
+	width: 100%;
+	text-align: left;
+}
+.body1{
+	display: inline-block;
+	width:48%;
+	padding: 20px 20px 20px 0px;;
+}
+.body2{
+	display: inline-block;
+	width:33%;
+	padding: 20px 20px 20px 0px;
+}
+.middle{
+	width: 100%;
+}
+.div1 h1{
+	font-size: 60px;
+}
+header .div1{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 50px;
+}
+footer{
+	text-align: left;
+}
+.foot{
+	text-align: center;
+	padding: 50px;
+}
