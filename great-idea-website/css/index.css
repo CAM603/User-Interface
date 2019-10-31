@@ -51,17 +51,21 @@ table {
 * {
 	box-sizing: border-box;
 }
+p{
+	font-size: 12px;
+}
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+.div1 h1{
+    font-family: 'Press Start 2P', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 45px;
 }
 
 /* Your code starts here! */
@@ -71,14 +75,23 @@ body{
 }
 nav{
 	display: block;
+	position: fixed;
+	top: 0;
+	background: rgb(11, 219, 63);
+	width: 100%;
+	left:0;
+	height: 70px;
+
 }
 nav a{
 	display: inline-block;
-	padding: 25px;
+	padding: 10px;
+	vertical-align: top;
+	font-size: 12px;;
 }
 nav .logo{
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 	margin-left: 60px;
 }
@@ -87,10 +100,22 @@ button{
 	font-weight:bold;
 	font-size: 15px;
 }
+h2{
+	margin-bottom: 15px;
+	color: rgb(11, 219, 63);
+}
+p{
+	font-size: 12px;
+	line-height: 20px;
+}
+address{
+	font-size: 10px;
+}
 
 header{
 	display: block;
 	padding: 20px;
+	margin-top: 70px;
 }
 .middle-img{
 	width: 100%;
@@ -108,15 +133,13 @@ header{
 }
 .body2{
 	display: inline-block;
-	width:33%;
+	width:32%;
 	padding: 20px 20px 20px 0px;
 }
 .middle{
 	width: 100%;
 }
-.div1 h1{
-	font-size: 60px;
-}
+
 header .div1{
 	display: inline-block;
 	width: 50%;
